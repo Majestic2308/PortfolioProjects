@@ -75,4 +75,5 @@ FROM CovidDeaths dea
 					JOIN CovidVaccination vac
 					ON dea.location = vac.location AND dea.date = vac.date
 WHERE dea.continent IS NOT NULL
+
 AND dea.date >= '2021-01-01'
