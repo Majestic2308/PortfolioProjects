@@ -1,3 +1,7 @@
+--I will do incremental improvement, showing both more manual (“hard”) SQL functions (substring, character index) 
+--and built-in functionality (PARSE_NAME) for parsing, and demonstrating best practices like verifying updates, doing test queries, etc.
+
+
 ------------------------------------------------------------
 --Standardize Date Format
 
@@ -157,4 +161,5 @@ DROP COLUMN PropertyAddress, OwnerAddress, TaxDistrict
 
 
 ALTER TABLE DAProject1.dbo.Nashville 
+
 DROP COLUMN SaleDate
