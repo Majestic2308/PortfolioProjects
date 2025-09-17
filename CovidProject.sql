@@ -1,3 +1,7 @@
+---I worked on SQL data exploration using a COVID-19 dataset. 
+--I walked through downloading, cleaning, and preparing the data, 
+--then wrote queries to analyze cases, deaths, vaccination progress, and global statistics.
+
 SELECT * 
 FROM CovidDeaths
 WHERE continent is not NULL
@@ -77,3 +81,4 @@ FROM CovidDeaths dea
 WHERE dea.continent IS NOT NULL
 
 AND dea.date >= '2021-01-01'
+
